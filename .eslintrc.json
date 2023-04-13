@@ -1,3 +1,34 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off",
+    "no-multiple-empty-lines": "warn",
+    "no-unexpected-multiline": "warn",
+    "no-unreachable": "error",
+    "no-trailing-spaces": "warn",
+    "consistent-return": "warn",
+    "default-case": "error",
+    "generator-star-spacing": "error",
+    "global-require": "warn",
+    "multiline-ternary": "warn",
+    "newline-before-return": "error",
+    "no-alert": "warn",
+    "no-await-in-loop": "warn",
+    "no-console": "warn",
+    "no-const-assign": "error",
+    "no-dupe-args": "warn",
+    "no-dupe-keys": "warn",
+    "no-duplicate-case": "warn",
+    "no-duplicate-imports": "warn",
+    "no-empty": "warn",
+    "no-empty-function": "warn",
+    "no-lonely-if": "warn",
+    "no-unused-vars": "warn",
+    "no-nested-ternary": "warn",
+    "require-await": "warn",
+    "require-yield": "warn",
+    "vars-on-top": "warn",
+    "wrap-iife": "warn"
+  }
 }

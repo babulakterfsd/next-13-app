@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* responsive classes */
+.main-container {
+  @apply w-full mx-auto px-2;
+}
+@media (min-width: 576px) {
+  .main-container {
+    max-width: 540px !important;
+  }
+}
+@media (min-width: 768px) {
+  .main-container {
+    max-width: 720px !important;
+  }
+}
+@media (min-width: 992px) {
+  .main-container {
+    max-width: 970px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .main-container {
+    max-width: 1170px !important;
+  }
+}
+@media (min-width: 1400px) {
+  .main-container {
+    max-width: 1320px !important;
+  }
+}
