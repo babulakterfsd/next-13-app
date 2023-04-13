@@ -1,6 +1,6 @@
+import Footer from '@/ui/footer';
+import Navbar from '@/ui/navbar';
 import '../styles/globals.css';
-import Footer from './ui/footer';
-import Navbar from './ui/navbar';
 
 type RootLayoutType = {
   children: React.ReactNode;
