@@ -1,5 +1,5 @@
-import Footer from '@/ui/footer';
-import Navbar from '@/ui/navbar';
+import Footer from '@/ui/Footer';
+import Navbar from '@/ui/Navbar';
 import '../styles/globals.css';
 
 type RootLayoutType = {

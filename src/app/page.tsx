@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <h1 className="min-h-screen flex justify-center items-center text-3xl text-red-400">
-        This is the home page
+        This is the home route
       </h1>
     </div>
   );

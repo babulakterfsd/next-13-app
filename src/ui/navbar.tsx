@@ -1,7 +1,14 @@
+import Link from 'next/link';
+
 function Navbar() {
   return (
-    <div className="bg-purple-500 text-white py-2">
-      <h1>This is the navbar</h1>
+    <div className="text-center text-xl bg-purple-950 py-4">
+      <Link href="/" className="mr-6 hover:text-green-600">
+        Home
+      </Link>
+      <Link href="/about" className="hover:text-green-600">
+        About
+      </Link>
     </div>
   );
 }

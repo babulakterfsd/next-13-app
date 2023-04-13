@@ -1,16 +1,8 @@
-import Link from 'next/link';
-
 const Footer = () => {
   return (
-    <div className="py-4 min-w-full bg-slate-500 text-white text-center ">
-      <h6>
-        Developed with love by{' '}
-        <Link
-          href="https://babulakter.com"
-          className="text-blue-300 hover:text-white"
-        >
-          Babul Akter
-        </Link>{' '}
+    <div className="text-xl text-center py-4">
+      <h6 className="bg-purple-600 text-white">
+        Made with love by Babul Akter
       </h6>
     </div>
   );
