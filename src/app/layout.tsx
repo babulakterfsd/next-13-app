@@ -1,24 +1,11 @@
-import Footer from '@/ui/footer';
-import Navbar from '@/ui/navbar';
+import { LayoutType } from '@/types/global.types';
 import '../styles/globals.css';
 
-type RootLayoutType = {
-  children: React.ReactNode;
-};
-
-export default function RootLayout({ children }: RootLayoutType) {
+export default function RootLayout({ children }: LayoutType) {
   return (
     <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
       <head />
-      <body className="bg-black text-white">
-        <Navbar />
-        <div className="main-container ">{children}</div>
-        <Footer />
-      </body>
+      <body className="bg-black text-white">{children}</body>
     </html>
   );
 }

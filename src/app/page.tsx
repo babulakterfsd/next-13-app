@@ -1,3 +1,5 @@
+import CommonPagesLayout from './layouts/commonPagesLayout';
+
 export const metadata = {
   title: 'HomePage | Babul Akter',
   description:
@@ -7,10 +9,10 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div>
-      <h1 className="min-h-screen flex justify-center items-center text-3xl text-red-400">
-        This is the home route
-      </h1>
-    </div>
+    <CommonPagesLayout>
+      <div className="min-h-screen flex justify-center items-center">
+        <h1 className=" text-3xl text-red-400">This is the home</h1>
+      </div>
+    </CommonPagesLayout>
   );
 }
