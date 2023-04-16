@@ -5,8 +5,7 @@ import CommonPagesLayout from '../layouts/commonPagesLayout';
 
 async function getData() {
   const res = await fetch(
-    'https://api.themoviedb.org/3/movie/top_rated?api_key=a13358bebd02c9fa5bbb19b0a3b42f36',
-    { cache: 'no-store' }
+    'https://api.themoviedb.org/3/movie/top_rated?api_key=a13358bebd02c9fa5bbb19b0a3b42f36'
   );
   if (!res.ok) {
     throw new Error('Failed to fetch data');
