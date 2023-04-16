@@ -6,7 +6,7 @@ export default function CommonPagesLayout({ children }: LayoutType) {
   return (
     <>
       <Navbar />
-      {children}
+      <div className="main-container">{children}</div>
       <Footer />
     </>
   );

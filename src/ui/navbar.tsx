@@ -73,6 +73,11 @@ function Navbar() {
                   About
                 </Link>
               </li>
+              <li className="cursor-pointer hover:text-indigo-300">
+                <Link href="/movies" className="block py-2 pl-3 ">
+                  Movies
+                </Link>
+              </li>
               <li className="cursor-pointer text-white bg-indigo-600 hover:bg-indigo-500 rounded-md text-center">
                 <Link href="/login" className="block py-2 px-3 font-semibold">
                   Login
@@ -104,6 +109,15 @@ function Navbar() {
             >
               <Link href="/about" className="block py-2 pl-3 ">
                 About
+              </Link>
+            </li>
+            <li
+              onClick={() => {
+                setIsOpen(false);
+              }}
+            >
+              <Link href="/movies" className="block py-2 pl-3 ">
+                Movies
               </Link>
             </li>
             <li
