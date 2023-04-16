@@ -1,3 +1,4 @@
+/* ts-expect-error Async Server Component */
 import CommonPagesLayout from '@/app/layouts/commonPagesLayout';
 import Image from 'next/image';
 import Link from 'next/link';

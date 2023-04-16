@@ -1,3 +1,4 @@
+/* ts-expect-error Async Server Component */
 import Movie from '@/components/movie';
 import { CustomMovie } from '@/types/global.types';
 import CommonPagesLayout from '../layouts/commonPagesLayout';

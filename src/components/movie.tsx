@@ -4,6 +4,7 @@ import Link from 'next/link';
 
 const Movie = ({ id, title, poster_path, release_date }: MovieProps) => {
   const imagePath = `https://image.tmdb.org/t/p/original${poster_path}`;
+  // console.log(imagePath);
 
   return (
     <div

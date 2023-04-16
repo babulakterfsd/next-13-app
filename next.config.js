@@ -4,7 +4,7 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ["image.tmdb.org", "https://next-13-app-babulakterfsd.up.railway.app/"],
+    domains: ["image.tmdb.org", "next-13-app-babulakterfsd.up.railway.app"],
   }
 }
 
